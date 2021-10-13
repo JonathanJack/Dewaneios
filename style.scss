@@ -1,0 +1,46 @@
+@import"c-carousel.scss";
+
+.header{
+    &__background{
+        background-image: url(/img/img_background.jpg);
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    &__logo{
+        border-radius: 100%;
+        transform: scale(0.3);                
+    }
+
+    & nav{
+        background-color:black;
+        opacity: 0.5;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:10px 0;
+        
+    }
+
+    .fixar{
+        position: sticky;
+        top: 10px;
+    }
+
+    & li{
+        margin-right: 50px;
+        cursor: pointer;
+
+
+    }
+}
+
+body{
+    
+    height: 3000px;
+    
+}

@@ -1,3 +1,51 @@
+.header__background {
+  background-image: url(/img/img_background.jpg);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
 
+.header__logo {
+  border-radius: 100%;
+  -webkit-transform: scale(0.3);
+          transform: scale(0.3);
+}
 
+.header nav {
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+
+.header .fixar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+.header li {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+body {
+  height: 3000px;
+}
 /*# sourceMappingURL=style.css.map */

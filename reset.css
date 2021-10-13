@@ -29,6 +29,8 @@ body {
 }
 ol, ul {
 	list-style: none;
+	margin-top: unset !important;
+    margin-bottom: unset !important;
 }
 blockquote, q {
 	quotes: none;
