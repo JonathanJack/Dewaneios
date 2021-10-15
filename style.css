@@ -24,7 +24,7 @@
 }
 
 .header__background {
-  background-image: url(/img/img_background.jpg);
+  background-image: url(img/img_background.jpg);
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,6 +89,11 @@
 .header li {
   margin-right: 50px;
   cursor: pointer;
+}
+
+#conceito iframe {
+  width: 98vw;
+  height: 98vh;
 }
 
 body {
