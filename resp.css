@@ -1,0 +1,14 @@
+
+@media(min-width: 576px){
+    .video-fit{
+        width: 98vw;
+        height: 98vw;
+    }    
+}    
+
+@media(max-width: 576px){
+    .video-fit{
+        width: 100%;
+    }
+    
+}

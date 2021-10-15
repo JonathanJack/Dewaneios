@@ -17,9 +17,17 @@
   width: 100%;
 }
 
-.carrossel img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
+@media (min-width: 576px) {
+  .carrossel img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carrossel img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=c-carousel.css.map */

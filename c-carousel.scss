@@ -11,8 +11,18 @@
     overflow: hidden;
     width: 100%;;
     
+    @media(min-width: 576px){
     img{
         object-fit: cover;
-        width: 100%;    
+        width: 50%; 
+           
+    }
+    }
+
+    @media(max-width: 576px){
+        img{
+            width: 100%;
+        }
+        
     }
 }

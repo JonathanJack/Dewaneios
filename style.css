@@ -17,10 +17,18 @@
   width: 100%;
 }
 
-.carrossel img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
+@media (min-width: 576px) {
+  .carrossel img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carrossel img {
+    width: 100%;
+  }
 }
 
 .header__background {
@@ -89,11 +97,6 @@
 .header li {
   margin-right: 50px;
   cursor: pointer;
-}
-
-#conceito iframe {
-  width: 98vw;
-  height: 98vh;
 }
 
 body {
